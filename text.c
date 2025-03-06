@@ -1,7 +1,7 @@
 #include<stdio.h>
-intmain (){
-	int a=5,b=10;
-	sum=a+b;
-	printf("%d",sum);
-	printf("hello world");
+void inputoutput(){
+	int num;
+	printf("entre an integer;");
+	scanf("%d", &num);
+	printf("you entred; %d\n", num);
 	return 0;}
