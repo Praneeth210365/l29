@@ -1,9 +1,8 @@
 case :4
 \
 #include<stdio.h>
-void inputoutput(){
+int main(){
 	int num;
-	printf("entre number;");
+	printf("%d", &num");
 	scanf("%d", &num);
-	printf("you entred; %d\n", num);
 	return 0;}
